@@ -33,6 +33,18 @@ tar jxf Sublime* & cd Sublime*
 rm ~/apps/Sublime*
 #ln -s sublime_text ~/bin/subl
 
+#mysql
+
+sudo apt-get install mysql-server
+
+#redis
+
+cd ~/apps
+wget http://download.redis.io/releases/redis-2.6.16.tar.gz
+tar xzf redis-2.6.16.tar.gz
+cd redis-2.6.16
+make
+
 #apt
 
 sudo apt-get update
