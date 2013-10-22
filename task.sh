@@ -11,8 +11,10 @@ sudo apt-get install python g++ make checkinstall
 wget -N http://nodejs.org/dist/node-latest.tar.gz
 tar xzvf node-latest.tar.gz && cd node-v*
 ./configure
-checkinstall #(remove the "v" in front of the version number in the dialog)
-sudo dpkg -i node_*
+make
+
+sudo curl https://npmjs.org/install.sh | sh
+
 
 rm ~/apps/node-latest.tar.gz 
 
@@ -29,8 +31,15 @@ https://help.github.com/articles/generating-ssh-keys
 cd ~/apps
 tar jxf Sublime* & cd Sublime*
 rm ~/apps/Sublime*
-ln -s sublime_text ~/bin/subl
+#ln -s sublime_text ~/bin/subl
 
 #apt
 
 sudo apt-get update
+
+#goagent
+
+#.profile
+
+#goagent
+python $HOME/apps/goagent/local/proxy.py &
