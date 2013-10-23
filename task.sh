@@ -5,6 +5,10 @@ mkdir ~/apps
 mkdir ~/bin
 cd ~/apps
 
+#sources
+
+http://wiki.ubuntu.org.cn/%E6%BA%90%E5%88%97%E8%A1%A8
+
 #node
 
 sudo apt-get install python g++ make checkinstall
@@ -51,6 +55,14 @@ make
 
 #ruby
 
+  #...
+  sudo apt-get install ruby-full
+  
+  cd ~/apps
+  git clone http://github.com/rubygems/rubygems
+  sudo ruby rubygems/setup.rb
+  
+  #or just use apt-get for both
 
 #apt
 
