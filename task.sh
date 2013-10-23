@@ -37,6 +37,10 @@ rm ~/apps/Sublime*
 
 sudo apt-get install mysql-server
 
+#svn
+
+sudo apt-get install subversion
+
 #redis
 
 cd ~/apps
@@ -45,13 +49,16 @@ tar xzf redis-2.6.16.tar.gz
 cd redis-2.6.16
 make
 
+#ruby
+
+
 #apt
 
 sudo apt-get update
 
 #goagent
 
-#.profile
-
-#goagent
-python $HOME/apps/goagent/local/proxy.py &
+  #.profile
+  
+  #goagent
+  python $HOME/apps/goagent/local/proxy.py &
