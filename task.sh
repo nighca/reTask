@@ -17,7 +17,7 @@ tar xzvf node-latest.tar.gz && cd node-v*
 ./configure
 make
 
-sudo curl https://npmjs.org/install.sh | sh
+sudo curl https://www.npmjs.org/install.sh | sh
 
 
 rm ~/apps/node-latest.tar.gz 
